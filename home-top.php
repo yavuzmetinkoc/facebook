@@ -35,7 +35,7 @@ if(!isset($_SESSION["FB_kullanici"],$_SESSION["FB_sifre"],$_SESSION['FB_adi'])){
     <div><img src="img/earth.png" width="20px" height="20px" /></div>
   </div>
   <div id="other_butonlar">
-      <div><img src="img/help.png" width="2px" height="20px" /></div>
+      <div><img src="img/help.png" width="20px" height="20px" /></div>
       <div id="digerbtn">
         <img src="img/diger.png" width="12px" height="12px" />
         <div id="acilirpencere">
