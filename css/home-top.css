@@ -1,0 +1,171 @@
+@media only screen and (min-width: 1500px) and (max-width: 6000px) {
+	body
+	{
+		margin:0px;
+		padding:0px;
+		font-family: Helvetica, Arial, sans-serif;
+	}
+	p,img{cursor:pointer;}
+	#anaheader{position:relative;width:100%;}
+	#anaheader div{float:left;margin-right:5px;}
+	#logo{width:50px;height:50px;padding-top:10px;margin-left:65px;}
+	#arama{width:470px;height:50px;margin-left:-15px;padding-top:10px;}
+	#arama>form>input{float:left;}
+	#arama>form>#search{width:400px;height:22px;border:1px solid #333;border-radius:3px;padding-left:15px;font-size:16px;}
+	#arama>form>#aramabuton{padding:5px 10px;width:15px;height:14px;border:1px solid #333;border-radius:3px;background-color:#e6eeff;cursor:pointer;
+	}
+	#aramabutonicerik{width:415px;height:auto;background-color:white;}
+    #aranacakicerik{width:100%;height:35px;float:left;font-size:14px;margin-top:2px;background-color:white;color:#1d2129;}
+	#aranacakicerik:hover{background-color:#d9d9d9}
+	#ana_butonlar{width:350px;height:50px;}
+	#ana_butonlar>a{float:left;}
+	#ana_butonlar>a>div{color:white;}
+	#ana_butonlar>a>#profil_buton{float:left;width:70px;height:40px; margin-top:10px;margin-left:20px;margin-right:3px;
+		font-size:12px;font-weight:bold;display:hidden;}
+		#ana_butonlar>a>#profil_buton>img{-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;}
+		#ana_butonlar>a>#profil_buton>p{margin-top:-25px;margin-left:35px;}
+	#ana_butonlar>a>#anasayfa{width:70px;height:40px; margin-top:18px;margin-left:5px;margin-right:3px;font-size:12px;font-weight:bold;}
+	#ana_butonlar>a>#ark_bul{width:110px;height:40px; margin-top:18px;margin-left:0px;margin-right:3px;font-size:12px;font-weight:bold;}
+	#icon_butonlar{margin-left:-20px;}
+	#icon_butonlar>div{float:left;margin-right:5px;width:20px;height:40px;padding-top:15px;}
+	#icon_butonlar>div:last-child{}
+
+	#other_butonlar>div{width:20px;height:50px;margin-top:15px;margin-left:10px;cursor:pointer;}
+	#other_butonlar>div:last-child{width:20px;height:50px;margin-top:17px;margin-left:5px;cursor:pointer;}
+	#acilirpencere{position:absolute;width:260px;height:280px;top:45px;background-color:white;right:290px;
+		visibility:hidden;border:1px solid #1d2129;border-radius:3px;}
+	#acilirpencere div{width:87%;font-size:14px;color: #1d2129;padding:5px 0px 5px 30px;margin:1px 0px 0px 0px;
+	}
+	#acilirpencere div:hover{background-color:#365899;color:white;}
+	#acilirpencere hr{width:90%;}
+	#digerbtn:hover div{visibility:visible;}
+}
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+	body
+	{
+		margin:0px;
+		padding:0px;
+		font-family: Helvetica, Arial, sans-serif;
+	}
+	p,img{cursor:pointer;}
+	#anaheader{position:relative;width:100%;}
+	#anaheader div{float:left;margin-right:5px;}
+	#logo{width:50px;height:50px;padding-top:10px;margin-left:65px;}
+	#arama{width:470px;height:50px;margin-left:-15px;padding-top:10px;}
+	#arama>form>input{float:left;}
+	#arama>form>#search{width:400px;height:22px;border:1px solid #333;border-radius:3px;padding-left:15px;font-size:16px;}
+	#arama>form>#aramabuton{padding:5px 10px;width:15px;height:14px;border:1px solid #333;border-radius:3px;background-color:#e6eeff;cursor:pointer;
+	}
+	#aramabutonicerik{width:415px;height:auto;background-color:white;}
+    #aranacakicerik{width:100%;height:35px;float:left;font-size:14px;margin-top:2px;background-color:white;color:#1d2129;}
+	#aranacakicerik:hover{background-color:#d9d9d9}
+	#ana_butonlar{width:350px;height:50px;}
+	#ana_butonlar>a{float:left;}
+	#ana_butonlar>a>div{color:white;}
+	#ana_butonlar>a>#profil_buton{float:left;width:70px;height:40px; margin-top:10px;margin-left:20px;margin-right:3px;
+		font-size:12px;font-weight:bold;display:hidden;}
+		#ana_butonlar>a>#profil_buton>img{-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;}
+		#ana_butonlar>a>#profil_buton>p{margin-top:-25px;margin-left:35px;}
+	#ana_butonlar>a>#anasayfa{width:70px;height:40px; margin-top:18px;margin-left:5px;margin-right:3px;font-size:12px;font-weight:bold;}
+	#ana_butonlar>a>#ark_bul{width:110px;height:40px; margin-top:18px;margin-left:0px;margin-right:3px;font-size:12px;font-weight:bold;}
+	#icon_butonlar{margin-left:-20px;}
+	#icon_butonlar>div{float:left;margin-right:5px;width:20px;height:40px;padding-top:15px;}
+	#icon_butonlar>div:last-child{}
+
+	#other_butonlar>div{width:20px;height:50px;margin-top:15px;margin-left:10px;cursor:pointer;}
+	#other_butonlar>div:last-child{width:20px;height:50px;margin-top:17px;margin-left:5px;cursor:pointer;}
+	#acilirpencere{position:absolute;width:260px;height:280px;top:45px;background-color:white;right:290px;
+		visibility:hidden;border:1px solid #1d2129;border-radius:3px;}
+	#acilirpencere div{width:87%;font-size:14px;color: #1d2129;padding:5px 0px 5px 30px;margin:1px 0px 0px 0px;
+	}
+	#acilirpencere div:hover{background-color:#365899;color:white;}
+	#acilirpencere hr{width:90%;}
+	#digerbtn:hover div{visibility:visible;}
+}
+@media only screen and (min-width: 570px) and (max-width: 1000px) {
+	body
+	{
+		margin:0px;
+		padding:0px;
+		font-family: Helvetica, Arial, sans-serif;
+	}
+	p,img{cursor:pointer;}
+	#anaheader{position:relative;width:100%;}
+	#anaheader div{float:left;margin-right:5px;}
+	#logo{width:50px;height:50px;padding-top:10px;margin-left:10px;}
+	#arama{width:500px;height:50px;margin-left:-15px;padding-top:10px;}
+	#arama>input{width:285px;height:22px;border:1px solid #333;border-radius:3px;padding-left:15px;font-size:16px;}
+	#arama>form>#search{width:400px;height:22px;border:1px solid #333;border-radius:3px;
+		padding-left:15px;top:-8px;position:relative;font-size:16px;}
+	#arama>form>#aramabuton{padding:5px 10px;width:15px;height:14px;border:1px solid #333;border-radius:3px;background-color:#e6eeff;cursor:pointer;
+	}
+	#aramabutonicerik{width:415px;height:auto;background-color:white;overflow: visible;}
+	#aranacakicerik{width:100%;height:35px;float:left;
+		font-size:14px;margin-top:2px;background-color:white;color:#1d2129;overflow: visible;}
+	#aranacakicerik:hover{background-color:#d9d9d9}
+	#ana_butonlar{width:350px;height:50px;}
+	#ana_butonlar>a{float:left;}
+	#ana_butonlar>a>div{color:white;}
+	#ana_butonlar>a>#profil_buton{float:left;width:70px;height:40px; margin-top:10px;margin-left:20px;margin-right:3px;
+		font-size:12px;font-weight:bold;display:hidden;}
+		#ana_butonlar>a>#profil_buton>p{margin-top:-25px;margin-left:35px;}
+	#ana_butonlar>a>#anasayfa{width:70px;height:40px; margin-top:18px;margin-left:5px;margin-right:3px;font-size:12px;font-weight:bold;}
+	#ana_butonlar>a>#ark_bul{width:110px;height:40px; margin-top:18px;margin-left:0px;margin-right:3px;font-size:12px;font-weight:bold;}
+	#icon_butonlar{margin-left:-20px;}
+	#icon_butonlar>div{float:left;margin-right:5px;width:20px;height:40px;padding-top:15px;}
+	#icon_butonlar>div:last-child{}
+
+	#other_butonlar>div{width:20px;height:50px;margin-top:15px;margin-left:10px;cursor:pointer;}
+	#other_butonlar>div:last-child{width:20px;height:50px;margin-top:17px;margin-left:5px;cursor:pointer;}
+	#acilirpencere{position:absolute;width:260px;height:280px;top:45px;background-color:white;right:320px;
+		visibility:hidden;border:1px solid #1d2129;border-radius:3px;}
+	#acilirpencere div{width:87%;font-size:14px;color: #1d2129;padding:5px 0px 5px 30px;margin:1px 0px 0px 0px;
+	}
+	#acilirpencere div:hover{background-color:#365899;color:white;}
+	#acilirpencere hr{width:90%;}
+	#digerbtn:hover div{visibility:visible;}
+
+}
+@media only screen and (min-width: 100px) and (max-width: 570px) {
+	body
+	{
+		margin:0px;
+		padding:0px;
+		font-family: Helvetica, Arial, sans-serif;
+	}
+	p,img{cursor:pointer;}
+	#anaheader{position:relative;width:500px;}
+	#anaheader div{float:left;margin-right:5px;}
+	#logo{width:50px;height:50px;padding-top:10px;margin-left:0px;}
+	#arama{width:400px;height:50px;margin-left:-15px;padding-top:10px;}
+	#arama>input{width:285px;height:22px;border:1px solid #333;border-radius:3px;padding-left:15px;font-size:16px;}
+	#arama>form>#search{width:220px;height:22px;border:1px solid #333;border-radius:3px;
+		top:-8px;position:relative;padding-left:15px;font-size:16px;}
+	#arama>form>#aramabuton{padding:5px 10px;width:15px;height:14px;border:1px solid #333;border-radius:3px;background-color:#e6eeff;cursor:pointer;
+	}
+	#aramabutonicerik{width:415px;height:auto;background-color:white;}
+    #aranacakicerik{width:100%;height:35px;float:left;font-size:14px;margin-top:2px;background-color:white;color:#1d2129;}
+	#aranacakicerik:hover{background-color:#d9d9d9}
+	#ana_butonlar{width:350px;height:50px;}
+	#ana_butonlar>a{float:left;}
+	#ana_butonlar>a>div{color:white;}
+	#ana_butonlar>a>#profil_buton{float:left;width:70px;height:40px; margin-top:10px;margin-left:20px;margin-right:3px;
+		font-size:12px;font-weight:bold;display:hidden;}
+		#ana_butonlar>a>#profil_buton>p{margin-top:-25px;margin-left:35px;}
+	#ana_butonlar>a>#anasayfa{width:70px;height:40px; margin-top:18px;margin-left:5px;margin-right:3px;font-size:12px;font-weight:bold;}
+	#ana_butonlar>a>#ark_bul{width:110px;height:40px; margin-top:18px;margin-left:0px;margin-right:3px;font-size:12px;font-weight:bold;}
+	#icon_butonlar{margin-left:-20px;}
+	#icon_butonlar>div{float:left;margin-right:5px;width:20px;height:40px;padding-top:15px;}
+	#icon_butonlar>div:last-child{}
+
+	#other_butonlar>div{width:20px;height:50px;margin-top:15px;margin-left:10px;cursor:pointer;}
+	#other_butonlar>div:last-child{width:20px;height:50px;margin-top:17px;margin-left:5px;cursor:pointer;}
+	#acilirpencere{position:absolute;width:260px;height:280px;top:45px;background-color:white;right:320px;
+		visibility:hidden;border:1px solid #1d2129;border-radius:3px;}
+	#acilirpencere div{width:87%;font-size:14px;color: #1d2129;padding:5px 0px 5px 30px;margin:1px 0px 0px 0px;
+	}
+	#acilirpencere div:hover{background-color:#365899;color:white;}
+	#acilirpencere hr{width:90%;}
+	#digerbtn:hover div{visibility:visible;}
+
+}

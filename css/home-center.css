@@ -1,0 +1,492 @@
+@media only screen and (min-width: 3000px) and (max-width: 6000px) {
+  #anacenter{float:left;width:2500px;height:100px;left:30px;right:100px;margin-top:20px;margin-left:10px;}
+  #anacenter>div{float:left;}
+  scrollbar {}
+  #anapaylasim{float:left;width:2000px;}
+  #arkoneri{width:100%;border-radius:5px;margin-top:15px;height:350px;background-color:#ffffff;margin-bottom:25px;}
+  #arkoneri>#oneribaslik{width:100%;height:40px;}
+  #arkoneri>#oneribaslik>h4{font-size:13px;color:#90949c;margin-left:12px;float:left;}
+  #arkoneri>#oneribaslik>a{float:right;font-size:12px;margin-top:18px;margin-right:8px;text-decoration:none;color:#4267b2;}
+  #arkoneri>#oneribaslik>a:hover{text-decoration:underline;}
+  #arkoneri>#onerikisiler{width:100%;margin-left:175px;position:relative;height:70px;float:left;}
+  #arkoneri>#onerikisiler>div{clear:left;padding:7px 0px 7px 0px;margin-top:-3px;}
+  #arkoneri>#onerikisiler>div>img{position:relative;margin-left:-160px;float:left;}
+  #arkoneri>#onerikisiler>div>#arkadaseklekadi{float:left;margin-left:-100px;margin-top:2px;color:#365899;}
+  #arkoneri>#onerikisiler>div>#arkadaseklekadi:hover{text-decoration:underline;}
+  p#arkadaseklebuton{float:left;margin-left:-100px;margin-top:26px;background-color: #e9ebee;
+    padding:3px 10px 3px 10px;border:1px solid gray;border-radius:3px;font-size:13px;}
+  #arkadaseklebuton:hover{background-color:#b3b3b3;}
+  #arkadaseklebuton>#addfriend{float:left;margin-top:1px;margin-left:-3px;margin-right:3px;}
+
+  #reklam{position:fixed;right:285px;top:55px;width:325px;height:auto;float:right;margin-left:20px;
+    margin-bottom:30px;}
+  #reklam>div{overflow-x:hidden;position:relative;overflow-y:auto;height:570px;}
+  #reklamalanilink>a{text-decoration:none;}
+  #reklamalanilink>a:hover{text-decoration:underline;}
+
+
+  #paylasimalani{border-radius:3px;border:1px solid #ffffff;width:100%;height:150px;background-color:white;}
+  #paylasimalani>#paylasimsecenek>a{float:left;margin-right:10px;cursor:pointer;}
+  #paylasimalani>#paylasimsecenek>a:first-child{margin-left:30px;}
+  #paylasimalani>#paylasimsecenek>a>div{float:left;font-size:11px;margin-top:0px;margin-right:3px;padding-right:8px;
+  color:#365899;}
+  #paylasimsecenek img{margin-top:5px;}
+  #paylasimsecenek{width:100%;height:30px;background-color: #f6f7f9;
+      border-bottom: 1px solid #dddfe2;
+      border-radius: 2px 2px 0 0;
+      font-weight: bold;
+      }
+  #paylasimicerik{width:100%;height:120px;border:1px solid gray;border-radius:3px;}
+  #paylasimicerik>img{clear:left;float:left;margin-left:10px;margin-top:10px;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px; }
+  #paylasimicerik>form{float:left;margin-left:10px;}
+  #paylasimicerik>form>hr{margin-top:20px;margin-left:-60px;width:470px;}
+  #paylasimicerik>form>input{width:400px;height:50px;border:0px;margin-top:10px;padding-top:0px;padding-left:10px;margin-left:-5px;}
+  #paylasimicerik>form>div{float:left;margin-right:10px;padding:2px 10px 2px 10px;margin-top:0px;width:auto;height:20px;
+    background-color:#e9ebee;border-radius:15px;font-size:13px;font-weight:bold;}
+    #paylasimicerik>form>div:hover{background-color:#b3b3b3;cursor:pointer;}
+  #paylasimicerik>form>div>img{float:left;}
+  #paylasimicerik>form>div>p{float:left;margin-top:3px;margin-left:4px;}
+  .paylasimgizli{clear:left;position:relative;width: 400px;height:20px;top:8px;background-color: transparent!important;}
+  .paylasimgizli select{margin-left:220px;background-color:#4267b2;color:white;} 
+  .close{left:730px;top:20px;position:absolute;z-index:1;width:20px;cursor:pointer;height:20px;}
+  .close p{font-size:30px;color:white;}
+  .close1{left:920px;top:35px;position:absolute;z-index:1;width:20px;cursor:pointer;height:20px;}
+  .close1 p{font-size:30px;color:white;}
+  #paylasbuton{background-color:#4267b2;color:white;}
+
+  #paylasimlar{width:100%;height:auto;background-color:#ffffff;margin-top:20px;border-radius:4px;position:relative;}
+  #paylasimbilgi{width:100%;height:auto;padding-top:15px;}
+  #paylasimbilgi>img{margin-left:10px;float:left;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px; }
+  #paylasimbilgi>div{width:80%;}
+  #paylasimbilgi>div>p#paylasimkadi{float:left;margin-left:8px;margin-top:4px;color:#365899;
+      cursor: pointer;font-weight:bold;font-size:14px;}
+  #paylasimsekli{float:left;margin-left:8px;margin-top:4px;color:#365899;font-size:14px;}
+  #paylasimbilgi>div>p#paylasimdk{float:left;left:0px;margin-top:10px;margin-left:-325px;font-size:11px;color:#90949c;
+  }
+  #paylasimbilgi>div>img#paylasimturu{margin-left:-285px;margin-top:10px;}
+  #paylasimbilgi>div>#paylasimyazi{margin-left:0px;float:left;margin-top:4px;margin-left:3px;}
+  #paylasimbilgi>#paylasimyazi:hover{text-decoration:none;cursor:default;}
+  #paylasimbilgi>p:hover{text-decoration: underline;}
+
+  #paylasimicerigi{width:100%;}
+  #paylasimicerigi>p{width:100%;height:auto;left:0px;margin-left:10px }
+  #paylasimicerigi>img{padding:3px 10px 3px 10px;}
+
+  #paylasimbutonlar{width:100%;height:40px;}
+  #paylasimbutonlar>div{float:left;width:auto;margin-right:0px;padding:0px 42px 2px 42px;margin-top:0px;margin-bottom:5px;}
+  #paylasimbutonlar>div:first-child{margin-left:5px;}
+  #paylasimbutonlar>div:hover{background-color:#f2f2f2;cursor: pointer;}
+  #paylasimbutonlar>div:hover p{text-decoration:underline;}
+  #paylasimbutonlar>div>img{float:left;width:28px;height:28px;margin-right:5px;}
+  #paylasimbutonlar>div>p{float:left;margin-top:7px;font-size:13px;}
+}
+@media only screen and (min-width: 1500px) and (max-width: 3000px) {
+  #anacenter{float:left;width:1200px;height:100px;left:30px;right:100px;margin-top:20px;margin-left:10px;}
+  #anacenter>div{float:left;}
+  scrollbar {}
+  #anapaylasim{float:left;width:900px;}
+  #arkoneri{width:100%;border-radius:5px;margin-top:15px;height:350px;background-color:#ffffff;margin-bottom:25px;}
+  #arkoneri>#oneribaslik{width:100%;height:40px;}
+  #arkoneri>#oneribaslik>h4{font-size:13px;color:#90949c;margin-left:12px;float:left;}
+  #arkoneri>#oneribaslik>a{float:right;font-size:12px;margin-top:18px;margin-right:8px;text-decoration:none;color:#4267b2;}
+  #arkoneri>#oneribaslik>a:hover{text-decoration:underline;}
+  #arkoneri>#onerikisiler{width:100%;margin-left:175px;position:relative;height:70px;float:left;}
+  #arkoneri>#onerikisiler>div{clear:left;padding:7px 0px 7px 0px;margin-top:-3px;}
+  #arkoneri>#onerikisiler>div>img{position:relative;margin-left:-160px;float:left;}
+  #arkoneri>#onerikisiler>div>#arkadaseklekadi{float:left;margin-left:-100px;margin-top:2px;color:#365899;}
+  #arkoneri>#onerikisiler>div>#arkadaseklekadi:hover{text-decoration:underline;}
+  p#arkadaseklebuton{float:left;margin-left:-100px;margin-top:26px;background-color: #e9ebee;
+    padding:3px 10px 3px 10px;border:1px solid gray;border-radius:3px;font-size:13px;}
+  #arkadaseklebuton:hover{background-color:#b3b3b3;}
+  #arkadaseklebuton>#addfriend{float:left;margin-top:1px;margin-left:-3px;margin-right:3px;}
+
+  #reklam{position:fixed;right:285px;top:55px;width:325px;height:auto;float:right;margin-left:20px;
+    margin-bottom:30px;}
+  #reklam>div{overflow-x:hidden;position:relative;overflow-y:auto;height:570px;}
+  #reklamalanilink>a{text-decoration:none;}
+  #reklamalanilink>a:hover{text-decoration:underline;}
+
+
+  #paylasimalani{border-radius:3px;border:1px solid #ffffff;width:100%;height:150px;background-color:white;}
+  #paylasimalani>#paylasimsecenek>a{float:left;margin-right:10px;cursor:pointer;}
+  #paylasimalani>#paylasimsecenek>a:first-child{margin-left:30px;}
+  #paylasimalani>#paylasimsecenek>a>div{float:left;font-size:11px;margin-top:0px;margin-right:3px;padding-right:8px;
+  color:#365899;}
+  #paylasimsecenek img{margin-top:5px;}
+  #paylasimsecenek{width:100%;height:30px;background-color: #f6f7f9;
+      border-bottom: 1px solid #dddfe2;
+      border-radius: 2px 2px 0 0;
+      font-weight: bold;
+      }
+  #paylasimicerik{width:100%;height:120px;border:1px solid gray;border-radius:3px;}
+  #paylasimicerik>img{clear:left;float:left;margin-left:10px;margin-top:10px;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px; }
+  #paylasimicerik>form{float:left;margin-left:10px;}
+  #paylasimicerik>form>hr{margin-top:20px;margin-left:-60px;width:470px;}
+  #paylasimicerik>form>input{width:400px;height:50px;border:0px;margin-top:10px;padding-top:0px;padding-left:10px;margin-left:-5px;}
+  #paylasimicerik>form>div{float:left;margin-right:10px;padding:2px 10px 2px 10px;margin-top:0px;width:auto;height:20px;
+    background-color:#e9ebee;border-radius:15px;font-size:13px;font-weight:bold;}
+    #paylasimicerik>form>div:hover{background-color:#b3b3b3;cursor:pointer;}
+  #paylasimicerik>form>div>img{float:left;}
+  #paylasimicerik>form>div>p{float:left;margin-top:3px;margin-left:4px;}
+  .paylasimgizli{clear:left;position:relative;width: 400px;height:20px;top:8px;background-color: transparent!important;}
+  .paylasimgizli select{margin-left:220px;background-color:#4267b2;color:white;} 
+  .close{left:730px;top:20px;position:absolute;z-index:1;width:20px;cursor:pointer;height:20px;}
+  .close p{font-size:30px;color:white;}
+  .close1{left:920px;top:35px;position:absolute;z-index:1;width:20px;cursor:pointer;height:20px;}
+  .close1 p{font-size:30px;color:white;}
+  #paylasbuton{background-color:#4267b2;color:white;}
+
+  #paylasimlar{width:100%;height:auto;background-color:#ffffff;margin-top:20px;border-radius:4px;position:relative;}
+  #paylasimbilgi{width:100%;height:auto;padding-top:15px;}
+  #paylasimbilgi>img{margin-left:10px;float:left;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px; }
+  #paylasimbilgi>div{width:80%;}
+  #paylasimbilgi>div>p#paylasimkadi{float:left;margin-left:8px;margin-top:4px;color:#365899;
+      cursor: pointer;font-weight:bold;font-size:14px;}
+  #paylasimsekli{float:left;margin-left:8px;margin-top:4px;color:#365899;font-size:14px;}
+  #paylasimbilgi>div>p#paylasimdk{float:left;left:0px;margin-top:10px;margin-left:-325px;font-size:11px;color:#90949c;
+  }
+  #paylasimbilgi>div>img#paylasimturu{margin-left:-285px;margin-top:10px;}
+  #paylasimbilgi>div>#paylasimyazi{margin-left:0px;float:left;margin-top:4px;margin-left:3px;}
+  #paylasimbilgi>#paylasimyazi:hover{text-decoration:none;cursor:default;}
+  #paylasimbilgi>p:hover{text-decoration: underline;}
+
+  #paylasimicerigi{width:100%;}
+  #paylasimicerigi>p{width:100%;height:auto;left:0px;margin-left:10px }
+  #paylasimicerigi>img{padding:3px 10px 3px 10px;}
+
+  #paylasimbutonlar{width:100%;height:40px;}
+  #paylasimbutonlar>div{float:left;width:auto;margin-right:0px;padding:0px 42px 2px 42px;margin-top:0px;margin-bottom:5px;}
+  #paylasimbutonlar>div:first-child{margin-left:5px;}
+  #paylasimbutonlar>div:hover{background-color:#f2f2f2;cursor: pointer;}
+  #paylasimbutonlar>div:hover p{text-decoration:underline;}
+  #paylasimbutonlar>div>img{float:left;width:28px;height:28px;margin-right:5px;}
+  #paylasimbutonlar>div>p{float:left;margin-top:7px;font-size:13px;}
+}
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+  #anacenter{float:left;width:915px;height:100px;left:30px;right:100px;margin-top:20px;margin-left:10px;}
+  #anacenter>div{float:left;}
+  scrollbar {}
+  #anapaylasim{float:left;width:500px;}
+  #arkoneri{width:100%;border-radius:5px;margin-top:15px;height:350px;background-color:#ffffff;margin-bottom:25px;}
+  #arkoneri>#oneribaslik{width:100%;height:40px;}
+  #arkoneri>#oneribaslik>h4{font-size:13px;color:#90949c;margin-left:12px;float:left;}
+  #arkoneri>#oneribaslik>a{float:right;font-size:12px;margin-top:18px;margin-right:8px;text-decoration:none;color:#4267b2;}
+  #arkoneri>#oneribaslik>a:hover{text-decoration:underline;}
+  #arkoneri>#onerikisiler{width:100%;margin-left:175px;position:relative;height:70px;float:left;}
+  #arkoneri>#onerikisiler>div{clear:left;padding:7px 0px 7px 0px;margin-top:-3px;}
+  #arkoneri>#onerikisiler>div>img{position:relative;margin-left:-160px;float:left;}
+  #arkoneri>#onerikisiler>div>#arkadaseklekadi{float:left;margin-left:-100px;margin-top:2px;color:#365899;}
+  #arkoneri>#onerikisiler>div>#arkadaseklekadi:hover{text-decoration:underline;}
+  p#arkadaseklebuton{float:left;margin-left:-100px;margin-top:26px;background-color: #e9ebee;
+    padding:3px 10px 3px 10px;border:1px solid gray;border-radius:3px;font-size:13px;}
+  #arkadaseklebuton:hover{background-color:#b3b3b3;}
+  #arkadaseklebuton>#addfriend{float:left;margin-top:1px;margin-left:-3px;margin-right:3px;}
+
+  #reklam{position:fixed;right:285px;top:55px;width:325px;height:auto;float:right;margin-left:20px;
+    margin-bottom:30px;}
+  #reklam>div{overflow-x:hidden;position:relative;overflow-y:auto;height:570px;}
+  #reklamalanilink>a{text-decoration:none;}
+  #reklamalanilink>a:hover{text-decoration:underline;}
+
+
+  #paylasimalani{border-radius:3px;border:1px solid #ffffff;width:100%;height:150px;background-color:white;}
+  #paylasimalani>#paylasimsecenek>a{float:left;margin-right:10px;cursor:pointer;}
+  #paylasimalani>#paylasimsecenek>a:first-child{margin-left:30px;}
+  #paylasimalani>#paylasimsecenek>a>div{float:left;font-size:11px;margin-top:0px;margin-right:3px;padding-right:8px;
+  color:#365899;}
+  #paylasimsecenek img{margin-top:5px;}
+  #paylasimsecenek{width:100%;height:30px;background-color: #f6f7f9;
+      border-bottom: 1px solid #dddfe2;
+      border-radius: 2px 2px 0 0;
+      font-weight: bold;
+      }
+  #paylasimicerik{width:100%;height:120px;border:1px solid gray;border-radius:3px;margin-bottom:10px;}
+  #paylasimicerik>img{clear:left;float:left;margin-left:10px;margin-top:10px;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px; }
+  #paylasimicerik>form{float:left;margin-left:10px;}
+  #paylasimicerik>form>hr{margin-top:20px;margin-left:-60px;width:470px;}
+  #paylasimicerik>form>input{width:400px;height:50px;border:0px;margin-top:10px;padding-top:0px;padding-left:10px;margin-left:-5px;}
+  #paylasimicerik>form>div{float:left;margin-right:10px;padding:2px 10px 2px 10px;margin-top:0px;width:auto;height:20px;
+    background-color:#e9ebee;border-radius:15px;font-size:13px;font-weight:bold;}
+    #paylasimicerik>form>div:hover{background-color:#b3b3b3;cursor:pointer;}
+  #paylasimicerik>form>div>img{float:left;}
+  #paylasimicerik>form>div>p{float:left;margin-top:3px;margin-left:4px;}
+  .paylasimgizli{clear:left;position:relative;width: 400px;height:20px;top:8px;background-color: transparent!important;}
+  .paylasimgizli select{margin-left:220px;background-color:#4267b2;color:white;} 
+  .close{left:730px;top:20px;position:absolute;z-index:1;width:20px;cursor:pointer;height:20px;}
+  .close p{font-size:30px;color:white;}
+  .close1{left:920px;top:35px;position:absolute;z-index:1;width:20px;cursor:pointer;height:20px;}
+  .close1 p{font-size:30px;color:white;}
+  #paylasbuton{background-color:#4267b2;color:white;}
+
+  #paylasimlar{width:100%;height:auto;background-color:#ffffff;margin-top:20px;border-radius:4px;position:relative;}
+  #paylasimbilgi{width:100%;height:auto;padding-top:15px;}
+  #paylasimbilgi>img{margin-left:10px;float:left;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px; }
+  #paylasimbilgi>div{width:80%;}
+  #paylasimbilgi>div>p#paylasimkadi{float:left;margin-left:8px;margin-top:4px;color:#365899;
+      cursor: pointer;font-weight:bold;font-size:14px;}
+  #paylasimsekli{float:left;margin-left:8px;margin-top:4px;color:#365899;font-size:14px;}
+  #paylasimbilgi>div>p#paylasimdk{float:left;left:0px;margin-top:10px;margin-left:-325px;font-size:11px;color:#90949c;
+  }
+  #paylasimbilgi>div>img#paylasimturu{margin-left:-285px;margin-top:10px;}
+  #paylasimbilgi>div>#paylasimyazi{margin-left:0px;float:left;margin-top:4px;margin-left:3px;}
+  #paylasimbilgi>#paylasimyazi:hover{text-decoration:none;cursor:default;}
+  #paylasimbilgi>p:hover{text-decoration: underline;}
+
+  #paylasimicerigi{width:100%;}
+  #paylasimicerigi>p{width:100%;height:auto;left:0px;margin-left:10px }
+  #paylasimicerigi>img{padding:3px 10px 3px 10px;}
+
+  #paylasimbutonlar{width:100%;height:40px;}
+  #paylasimbutonlar>div{float:left;width:auto;margin-right:0px;padding:0px 42px 2px 42px;margin-top:0px;margin-bottom:5px;}
+  #paylasimbutonlar>div:first-child{margin-left:5px;}
+  #paylasimbutonlar>div:hover{background-color:#f2f2f2;cursor: pointer;}
+  #paylasimbutonlar>div:hover p{text-decoration:underline;}
+  #paylasimbutonlar>div>img{float:left;width:28px;height:28px;margin-right:5px;}
+  #paylasimbutonlar>div>p{float:left;margin-top:7px;font-size:13px;}
+}
+@media only screen and (min-width: 700px) and (max-width: 1000px) {
+  #anacenter{float:left;width:915px;height:100px;left:30px;right:100px;margin-top:20px;margin-left:10px;}
+  #anacenter>div{float:left;}
+  scrollbar {}
+  #anapaylasim{float:left;width:600px;margin:0 auto;}
+  #arkoneri{width:100%;border-radius:5px;margin-top:15px;height:350px;background-color:#ffffff;margin-bottom:25px;}
+  #arkoneri>#oneribaslik{width:100%;height:40px;}
+  #arkoneri>#oneribaslik>h4{font-size:13px;color:#90949c;margin-left:12px;float:left;}
+  #arkoneri>#oneribaslik>a{float:right;font-size:12px;margin-top:18px;margin-right:8px;text-decoration:none;color:#4267b2;}
+  #arkoneri>#oneribaslik>a:hover{text-decoration:underline;}
+  #arkoneri>#onerikisiler{width:100%;margin-left:175px;position:relative;height:70px;float:left;}
+  #arkoneri>#onerikisiler>div{clear:left;padding:7px 0px 7px 0px;margin-top:-3px;}
+  #arkoneri>#onerikisiler>div>img{position:relative;margin-left:-160px;float:left;}
+  #arkoneri>#onerikisiler>div>#arkadaseklekadi{float:left;margin-left:-100px;margin-top:2px;color:#365899;}
+  #arkoneri>#onerikisiler>div>#arkadaseklekadi:hover{text-decoration:underline;}
+  p#arkadaseklebuton{float:left;margin-left:-100px;margin-top:26px;background-color: #e9ebee;
+    padding:3px 10px 3px 10px;border:1px solid gray;border-radius:3px;font-size:13px;}
+  #arkadaseklebuton:hover{background-color:#b3b3b3;}
+  #arkadaseklebuton>#addfriend{float:left;margin-top:1px;margin-left:-3px;margin-right:3px;}
+  #reklam{position:fixed;right:10px;top:55px;width:250px;height:auto;float:right;margin-left:20px;
+    margin-bottom:30px;}
+  #reklam>div{overflow-x:hidden;position:relative;overflow-y:auto;height:400px;}
+  #reklamalanilink>a{text-decoration:none;}
+  #reklamalanilink>a:hover{text-decoration:underline;}
+
+
+  #paylasimalani{border-radius:3px;border:1px solid #ffffff;width:100%;height:150px;background-color:white;}
+  #paylasimalani>#paylasimsecenek>a{float:left;margin-right:10px;cursor:pointer;}
+  #paylasimalani>#paylasimsecenek>a:first-child{margin-left:30px;}
+  #paylasimalani>#paylasimsecenek>a>div{float:left;font-size:11px;margin-top:0px;margin-right:3px;padding-right:8px;
+  color:#365899;}
+  #paylasimsecenek img{margin-top:5px;}
+  #paylasimsecenek{width:100%;height:30px;background-color: #f6f7f9;
+      border-bottom: 1px solid #dddfe2;
+      border-radius: 2px 2px 0 0;
+      font-weight: bold;
+      }
+  #paylasimicerik{width:100%;height:120px;border:1px solid gray;border-radius:3px;}
+  #paylasimicerik>img{clear:left;float:left;margin-left:10px;margin-top:10px;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px; }
+  #paylasimicerik>form{float:left;margin-left:10px;}
+  #paylasimicerik>form>hr{margin-top:20px;margin-left:-60px;width:470px;}
+  #paylasimicerik>form>input{width:400px;height:50px;border:0px;margin-top:10px;padding-top:0px;padding-left:10px;margin-left:-5px;}
+  #paylasimicerik>form>div{float:left;margin-right:10px;padding:2px 10px 2px 10px;margin-top:0px;width:auto;height:20px;
+    background-color:#e9ebee;border-radius:15px;font-size:13px;font-weight:bold;}
+    #paylasimicerik>form>div:hover{background-color:#b3b3b3;cursor:pointer;}
+  #paylasimicerik>form>div>img{float:left;}
+  #paylasimicerik>form>div>p{float:left;margin-top:3px;margin-left:4px;}
+  .paylasimgizli{clear:left;position:relative;width: 400px;height:20px;top:8px;background-color: transparent!important;}
+  .paylasimgizli select{margin-left:220px;background-color:#4267b2;color:white;} 
+  .close{left:730px;top:20px;position:absolute;z-index:1;width:20px;cursor:pointer;height:20px;}
+  .close p{font-size:30px;color:white;}
+  .close1{left:920px;top:35px;position:absolute;z-index:1;width:20px;cursor:pointer;height:20px;}
+  .close1 p{font-size:30px;color:white;}
+  #paylasbuton{background-color:#4267b2;color:white;}
+
+
+  #paylasimlar{width:100%;height:auto;background-color:#ffffff;margin-top:20px;border-radius:4px;position:relative;}
+  #paylasimbilgi{width:100%;height:auto;padding-top:15px;}
+  #paylasimbilgi>img{margin-left:10px;float:left;}
+  #paylasimbilgi>div{width:80%;}
+  #paylasimbilgi>div>p#paylasimkadi{float:left;margin-left:8px;margin-top:4px;color:#365899;
+      cursor: pointer;font-weight:bold;font-size:14px;}
+  #paylasimsekli{float:left;margin-left:8px;margin-top:4px;color:#365899;font-size:14px;}
+  #paylasimbilgi>div>p#paylasimdk{float:left;left:0px;margin-top:10px;margin-left:-325px;font-size:11px;color:#90949c;
+  }
+  #paylasimbilgi>div>img#paylasimturu{margin-left:-285px;margin-top:10px;}
+  #paylasimbilgi>div>#paylasimyazi{margin-left:0px;float:left;margin-top:4px;margin-left:3px;}
+  #paylasimbilgi>#paylasimyazi:hover{text-decoration:none;cursor:default;}
+  #paylasimbilgi>p:hover{text-decoration: underline;}
+
+  #paylasimicerigi{width:100%;}
+  #paylasimicerigi>p{width:100%;height:auto;left:0px;}
+  #paylasimicerigi>img{padding:3px 10px 3px 10px;}
+
+  #paylasimbutonlar{width:100%;height:40px;}
+  #paylasimbutonlar>div{float:left;width:auto;margin-right:0px;padding:0px 42px 2px 42px;margin-top:0px;margin-bottom:5px;}
+  #paylasimbutonlar>div:first-child{margin-left:5px;}
+  #paylasimbutonlar>div:hover{background-color:#f2f2f2;cursor: pointer;}
+  #paylasimbutonlar>div:hover p{text-decoration:underline;}
+  #paylasimbutonlar>div>img{float:left;width:28px;height:28px;margin-right:5px;}
+  #paylasimbutonlar>div>p{float:left;margin-top:7px;font-size:13px;}
+}
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+  #anacenter{float:left;width:915px;height:100px;left:30px;right:100px;margin-top:20px;margin-left:10px;}
+  #anacenter>div{float:left;}
+  scrollbar {}
+  #anapaylasim{float:left;width:600px;margin:0 auto;}
+  #arkoneri{width:100%;border-radius:5px;margin-top:15px;height:350px;background-color:#ffffff;margin-bottom:25px;}
+  #arkoneri>#oneribaslik{width:100%;height:40px;}
+  #arkoneri>#oneribaslik>h4{font-size:13px;color:#90949c;margin-left:12px;float:left;}
+  #arkoneri>#oneribaslik>a{float:right;font-size:12px;margin-top:18px;margin-right:8px;text-decoration:none;color:#4267b2;}
+  #arkoneri>#oneribaslik>a:hover{text-decoration:underline;}
+  #arkoneri>#onerikisiler{width:100%;margin-left:175px;position:relative;height:70px;float:left;}
+  #arkoneri>#onerikisiler>div{clear:left;padding:7px 0px 7px 0px;margin-top:-3px;}
+  #arkoneri>#onerikisiler>div>img{position:relative;margin-left:-160px;float:left;}
+  #arkoneri>#onerikisiler>div>#arkadaseklekadi{float:left;margin-left:-100px;margin-top:2px;color:#365899;}
+  #arkoneri>#onerikisiler>div>#arkadaseklekadi:hover{text-decoration:underline;}
+  p#arkadaseklebuton{float:left;margin-left:-100px;margin-top:26px;background-color: #e9ebee;
+    padding:3px 10px 3px 10px;border:1px solid gray;border-radius:3px;font-size:13px;}
+  #arkadaseklebuton:hover{background-color:#b3b3b3;}
+  #arkadaseklebuton>#addfriend{float:left;margin-top:1px;margin-left:-3px;margin-right:3px;}
+  #reklam{position:fixed;right:10px;top:55px;width:250px;height:auto;float:right;margin-left:20px;
+    margin-bottom:30px;}
+    #reklam *{visibility:hidden;}
+  #reklam>div{overflow-x:hidden;position:relative;overflow-y:auto;height:400px;}
+  #reklamalanilink>a{text-decoration:none;}
+  #reklamalanilink>a:hover{text-decoration:underline;}
+  .paylasimgizli{clear:left;position:relative;width: 400px;height:20px;top:8px;background-color: transparent!important;}
+  .paylasimgizli select{margin-left:220px;background-color:#4267b2;color:white;} 
+  .close{left:730px;top:20px;position:absolute;z-index:1;width:20px;cursor:pointer;height:20px;}
+  .close p{font-size:30px;color:white;}
+  .close1{left:920px;top:35px;position:absolute;z-index:1;width:20px;cursor:pointer;height:20px;}
+  .close1 p{font-size:30px;color:white;}
+  #paylasbuton{background-color:#4267b2;color:white;}
+
+  #paylasimalani{border-radius:3px;border:1px solid #ffffff;width:100%;height:150px;background-color:white;}
+  #paylasimalani>#paylasimsecenek>a{float:left;margin-right:10px;}
+  #paylasimalani>#paylasimsecenek>a:first-child{margin-left:30px;}
+  #paylasimalani>#paylasimsecenek>a>div{float:left;font-size:11px;margin-top:0px;margin-right:3px;padding-right:8px;
+  color:#365899;}
+  #paylasimsecenek img{margin-top:5px;}
+  #paylasimsecenek{width:100%;height:30px;background-color: #f6f7f9;
+      border-bottom: 1px solid #dddfe2;
+      border-radius: 2px 2px 0 0;
+      font-weight: bold;
+      }
+  #paylasimicerik{width:100%;height:120px;border:1px solid gray;border-radius:3px;}
+  #paylasimicerik>img{clear:left;float:left;margin-left:10px;margin-top:10px;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px; }
+  #paylasimicerik>form{float:left;margin-left:10px;}
+  #paylasimicerik>form>hr{margin-top:20px;margin-left:-60px;width:470px;}
+  #paylasimicerik>form>input{width:400px;height:50px;border:0px;margin-top:10px;padding-top:0px;padding-left:10px;margin-left:-5px;}
+  #paylasimicerik>form>div{float:left;margin-right:10px;padding:2px 10px 2px 10px;margin-top:0px;width:auto;height:20px;
+    background-color:#e9ebee;border-radius:15px;font-size:13px;font-weight:bold;}
+    #paylasimicerik>form>div:hover{background-color:#b3b3b3;cursor:pointer;}
+  #paylasimicerik>form>div>img{float:left;}
+  #paylasimicerik>form>div>p{float:left;margin-top:3px;margin-left:4px;}
+
+
+  #paylasimlar{width:100%;height:auto;background-color:#ffffff;margin-top:20px;border-radius:4px;position:relative;}
+  #paylasimbilgi{width:100%;height:auto;padding-top:15px;}
+  #paylasimbilgi>img{margin-left:10px;float:left;}
+  #paylasimbilgi>div{width:80%;}
+  #paylasimbilgi>div>p#paylasimkadi{float:left;margin-left:8px;margin-top:4px;color:#365899;
+      cursor: pointer;font-weight:bold;font-size:14px;}
+  #paylasimsekli{float:left;margin-left:8px;margin-top:4px;color:#365899;font-size:14px;}
+  #paylasimbilgi>div>p#paylasimdk{float:left;left:0px;margin-top:10px;margin-left:-325px;font-size:11px;color:#90949c;
+  }
+  #paylasimbilgi>div>img#paylasimturu{margin-left:-285px;margin-top:10px;}
+  #paylasimbilgi>div>#paylasimyazi{margin-left:0px;float:left;margin-top:4px;margin-left:3px;}
+  #paylasimbilgi>#paylasimyazi:hover{text-decoration:none;cursor:default;}
+  #paylasimbilgi>p:hover{text-decoration: underline;}
+
+  #paylasimicerigi{width:100%;}
+  #paylasimicerigi>p{width:100%;height:auto;left:0px;}
+  #paylasimicerigi>img{padding:3px 10px 3px 10px;}
+
+  #paylasimbutonlar{width:100%;height:40px;}
+  #paylasimbutonlar>div{float:left;width:auto;margin-right:0px;padding:0px 42px 2px 42px;margin-top:0px;margin-bottom:5px;}
+  #paylasimbutonlar>div:first-child{margin-left:5px;}
+  #paylasimbutonlar>div:hover{background-color:#f2f2f2;cursor: pointer;}
+  #paylasimbutonlar>div:hover p{text-decoration:underline;}
+  #paylasimbutonlar>div>img{float:left;width:28px;height:28px;margin-right:5px;}
+  #paylasimbutonlar>div>p{float:left;margin-top:7px;font-size:13px;}
+}
+@media only screen and (min-width: 100px) and (max-width: 500px) {
+  #anacenter{float:left;width:915px;height:100px;left:30px;right:100px;margin-top:20px;margin-left:10px;}
+  #anacenter>div{float:left;}
+  scrollbar {}
+  #anapaylasim{float:left;width:450px;margin:0 auto;}
+  #arkoneri{width:100%;border-radius:5px;margin-top:15px;height:350px;background-color:#ffffff;margin-bottom:25px;}
+  #arkoneri>#oneribaslik{width:100%;height:40px;}
+  #arkoneri>#oneribaslik>h4{font-size:13px;color:#90949c;margin-left:12px;float:left;}
+  #arkoneri>#oneribaslik>a{float:right;font-size:12px;margin-top:18px;margin-right:8px;text-decoration:none;color:#4267b2;}
+  #arkoneri>#oneribaslik>a:hover{text-decoration:underline;}
+  #arkoneri>#onerikisiler{width:100%;margin-left:175px;position:relative;height:70px;float:left;}
+  #arkoneri>#onerikisiler>div{clear:left;padding:7px 0px 7px 0px;margin-top:-3px;}
+  #arkoneri>#onerikisiler>div>img{position:relative;margin-left:-160px;float:left;}
+  #arkoneri>#onerikisiler>div>#arkadaseklekadi{float:left;margin-left:-100px;margin-top:2px;color:#365899;}
+  #arkoneri>#onerikisiler>div>#arkadaseklekadi:hover{text-decoration:underline;}
+  p#arkadaseklebuton{float:left;margin-left:-100px;margin-top:26px;background-color: #e9ebee;
+    padding:3px 10px 3px 10px;border:1px solid gray;border-radius:3px;font-size:13px;}
+  #arkadaseklebuton:hover{background-color:#b3b3b3;}
+  #arkadaseklebuton>#addfriend{float:left;margin-top:1px;margin-left:-3px;margin-right:3px;}
+  #reklam{position:fixed;right:10px;top:55px;width:250px;height:auto;float:right;margin-left:20px;
+    margin-bottom:30px;}
+    #reklam *{visibility:hidden;}
+  #reklam>div{overflow-x:hidden;position:relative;overflow-y:auto;height:400px;}
+  #reklamalanilink>a{text-decoration:none;}
+  #reklamalanilink>a:hover{text-decoration:underline;}
+
+
+  #paylasimalani{border-radius:3px;border:1px solid #ffffff;width:100%;height:150px;background-color:white;}
+  #paylasimalani>#paylasimsecenek>a{float:left;margin-right:10px;}
+  #paylasimalani>#paylasimsecenek>a:first-child{margin-left:30px;}
+  #paylasimalani>#paylasimsecenek>a>div{float:left;font-size:11px;margin-top:0px;margin-right:3px;padding-right:8px;
+  color:#365899;}
+  #paylasimsecenek img{margin-top:5px;}
+  #paylasimsecenek{width:100%;height:30px;background-color: #f6f7f9;
+      border-bottom: 1px solid #dddfe2;
+      border-radius: 2px 2px 0 0;
+      font-weight: bold;
+      }
+  #paylasimicerik{width:100%;height:120px;border:1px solid gray;border-radius:3px;}
+  #paylasimicerik>img{clear:left;float:left;margin-left:10px;margin-top:10px;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px; }
+  #paylasimicerik>form{float:left;margin-left:10px;}
+  #paylasimicerik>form>hr{margin-top:20px;margin-left:-60px;width:300px;}
+  #paylasimicerik>form>input{width:300px;height:50px;border:0px;margin-top:10px;padding-top:0px;padding-left:10px;margin-left:-5px;}
+  #paylasimicerik>form>div{float:left;margin-right:10px;padding:2px 10px 2px 10px;margin-top:0px;width:auto;height:20px;
+    background-color:#e9ebee;border-radius:15px;font-size:13px;font-weight:bold;}
+    #paylasimicerik>form>div:hover{background-color:#b3b3b3;cursor:pointer;}
+  #paylasimicerik>form>div>img{float:left;}
+  #paylasimicerik>form>div>p{float:left;margin-top:3px;margin-left:4px;}
+  .paylasimgizli{clear:left;position:relative;width: 400px;height:20px;top:8px;background-color: transparent!important;}
+  .paylasimgizli select{margin-left:220px;background-color:#4267b2;color:white;} 
+  .close{left:730px;top:20px;position:absolute;z-index:1;width:20px;cursor:pointer;height:20px;}
+  .close p{font-size:30px;color:white;}
+  .close1{left:920px;top:35px;position:absolute;z-index:1;width:20px;cursor:pointer;height:20px;}
+  .close1 p{font-size:30px;color:white;}
+  #paylasbuton{background-color:#4267b2;color:white;}
+
+  #paylasimlar{width:100%;height:auto;background-color:#ffffff;margin-top:20px;border-radius:4px;position:relative;}
+  #paylasimbilgi{width:100%;height:auto;padding-top:15px;}
+  #paylasimbilgi>img{margin-left:10px;float:left;}
+  #paylasimbilgi>div{width:80%;}
+  #paylasimbilgi>div>p#paylasimkadi{float:left;margin-left:8px;margin-top:4px;color:#365899;
+      cursor: pointer;font-weight:bold;font-size:14px;}
+  #paylasimsekli{float:left;margin-left:8px;margin-top:4px;color:#365899;font-size:14px;}
+  #paylasimbilgi>div>p#paylasimdk{float:left;left:0px;margin-top:10px;margin-left:-325px;font-size:11px;color:#90949c;
+  }
+  #paylasimbilgi>div>img#paylasimturu{margin-left:-285px;margin-top:10px;}
+  #paylasimbilgi>div>#paylasimyazi{margin-left:0px;float:left;margin-top:4px;margin-left:3px;}
+  #paylasimbilgi>#paylasimyazi:hover{text-decoration:none;cursor:default;}
+  #paylasimbilgi>p:hover{text-decoration: underline;}
+
+  #paylasimicerigi{width:100%;}
+  #paylasimicerigi>p{width:100%;height:auto;left:0px;}
+  #paylasimicerigi>img{padding:3px 10px 3px 10px;}
+
+  #paylasimbutonlar{width:100%;height:40px;}
+  #paylasimbutonlar>div{float:left;width:auto;margin-right:0px;padding:0px 42px 2px 42px;margin-top:0px;margin-bottom:5px;}
+  #paylasimbutonlar>div:first-child{margin-left:5px;}
+  #paylasimbutonlar>div:hover{background-color:#f2f2f2;cursor: pointer;}
+  #paylasimbutonlar>div:hover p{text-decoration:underline;}
+  #paylasimbutonlar>div>img{float:left;width:28px;height:28px;margin-right:5px;}
+  #paylasimbutonlar>div>p{float:left;margin-top:7px;font-size:13px;}
+}

@@ -1,0 +1,117 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	background: linear-gradient(#ffffff,#c8d3ea);
+	position:relative;
+	width:1349px;
+}
+
+header{
+	background-color: #3b5998;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783;
+  min-height: 85px;
+  position: relative;
+  z-index: 1;
+}
+#logo{
+	width:170px;
+	height:86px;
+	position: relative;
+	float:left;
+	font-size:42px;
+	font-weight:bold;
+	color:white;
+	margin:0px 0px 0px 182px;
+font-family: Helvetica, Arial, sans-serif;
+}
+#logo a{
+	color: white;
+	text-decoration:none;
+	position: relative;
+  cursor: pointer;
+	height:100%;
+}
+#girispanel{
+	float:right;
+	margin-right:175px;
+	margin-top:15px;
+	position: relative;
+}
+input#kadi,#sifre{border:1px solid black;height:18px;width:150px;}
+input#girisbuton{color:white;background-color: #4267b2;width:70px;height:22px;border:0.2px solid #29487d;cursor:pointer;}
+input#girisbuton:hover{background-color: #294170;}
+input#kadi{margin-right:13px;}
+input#sifre{margin-right:11px;}
+#girispanel>#girisyazi>div{
+	float:left;
+	color:white;
+	font-family:inherit;
+	font-size:12px;
+	margin-right:58px;
+font-family: Helvetica, Arial, sans-serif;
+}
+#yazikadi{margin-right:50px;}
+#hesapunuttun{margin-top:5px;}
+#hesapunuttun a{color:#9cb4d8;font-size: 14px;margin-left:173px;text-decoration: none;}
+
+content{width:100%;height:auto;}
+#ortakisim{float:left;width:100%;height:auto;}
+#ortakisim p{color: #0e385f;font-size:20px;font-family: Helvetica, Arial, sans-serif;font-weight:bold;line-height:29px;}
+#ortakisim>#resim{margin-left:180px;margin-top:35px;width:450px;}
+#ortakisim>#resim>img{margin-top:-15px;}
+#ortakisim>#kayitol{float:right;margin-top:-312px;}
+#ortakisim>#kayitol>h2{font-size:36px;margin-right:425px;font-family: Helvetica, Arial, sans-serif;color: #333;}
+#ortakisim>#kayitol>h3{font-size:20px;margin-top:-25px;font-weight: normal;font-family: Helvetica, Arial, sans-serif;color: #333;margin-bottom:25px;}
+#ortakisim>#kayitol>form>input{border-color: #bdc7d8;border-radius: 5px;margin: 0;font-size: 18px;border:2px solid #bdc7d8;}
+#ortakisim>#kayitol>form>input#uye_adi{width:180px;height:35px;margin-right:10px;}
+#ortakisim>#kayitol>form>input#uye_soyad{width:180px;height:35px;}
+#ortakisim>#kayitol>form>input#uye_kadi{width:380px;height:35px;margin-top:10px;}
+#ortakisim>#kayitol>form>input#uye_sifre{width:380px;height:35px;margin-top:10px;}
+#ortakisim>#kayitol>form>h4{font-size:20px;font-weight: normal;color:black;margin-top:15px;}
+#tarih{margin-top:-17px;}
+#tarih>div{float:left;}
+#cinsiyet{margin-top:80px;font-size:20px;}
+#cinsiyet>input{margin-left:20px;}
+h5{color: #777;font-size: 11px;line-height:15px;font-family: Helvetica, Arial, sans-serif;margin-top:8px;}
+#kayitbuton{background: linear-gradient(#67ae55, #578843);
+	background-color: #69a74e;box-shadow: inset 0 1px 1px #a4e388;border: 1px solid;
+  border-radius: 5px;color: #fff;cursor: pointer;display: inline-block;text-shadow: 0 1px 2px rgba(0,0,0,.5);border-color: #3b6e22 #3b6e22 #2c5115;
+	width:200px;height:40px;font-size:20px;padding:10px 10px;font-weight:bold;
+}
+
+footer{
+	height:180px;
+	margin-top:600px;
+	background-color: white;
+}
+footer #dil>ul{
+	list-style:none;
+}
+footer #dil>ul li{
+	float:left;margin-right:10px;cursor: pointer;font-size:12px;margin-top:30px;color: #365899;
+	font-family: Helvetica, Arial, sans-serif;
+}
+footer #dil>ul>li:hover{
+	text-decoration: underline;
+}
+footer #butonlar{
+	margin-top:-15px;
+}
+footer #butonlar ul{
+	list-style:none;
+	float:left;
+	margin-right:-15px;
+}
+footer #butonlar ul li{
+	font-size:12px;
+	cursor: pointer;
+	color: #365899;
+	line-height:20px;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+footer #butonlar>ul>li:hover{
+	text-decoration: underline;
+}

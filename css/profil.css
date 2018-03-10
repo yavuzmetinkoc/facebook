@@ -1,0 +1,175 @@
+@media only screen and (min-width: 1100px) and (max-width: 1500px) {
+body
+{
+	margin:0px;
+	padding:0px;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #e9ebee;
+	width:1349px;
+	position:relative;
+}
+
+header
+{
+	width:100%;
+	height:50px;
+	background-color: #4267b2;
+  border-bottom: 1px solid #29487d;
+  color: #fff;
+	position:fixed;
+	z-index:1;
+	overflow:visible;
+}
+
+p{font-family: Helvetica, Arial, sans-serif;}
+#container{width:100%;}
+#right{width:300px;height:100%;float:right;top:50px;right:0px;position:fixed;overflow:hidden;}
+#left{float:left;width:1050px;height:auto;position:relative;top:50px;}
+#left>#profilresimler{width:830px;height:auto;margin:0px 20px 20px 100px;position:relative;
+	border: 1px solid #d3d6db;border-radius: 0 0 3px 3px;}
+#left>#profilresimler>a{text-decoration:none;color:#4b4f56;}
+#kapakfoto{width:830px;height:300px;background-image:url(img/user.png);}
+#kapakfoto>img{width:100%;height:100%;}
+#kapakfoto>div{border-radius:3px;}
+#kapakfoto>#bilgiguncelle{position:absolute;top:220px;right:30px;width:132px;height:25px;float:right;
+font-weight:bold;background-color: #f6f7f9;}
+#kapakfoto>#bilgiguncelle:hover{background-color:#d9d9d9;}
+#kapakfoto>#bilgiguncelle>p{margin:4px 2px 0px 2px;font-size:13px;}
+#kapakfoto>#hareketlerdokumu{position:absolute;top:260px;right:30px;width:215px;height:25px;float:right;
+font-weight:bold;background-color: #f6f7f9;}
+#kapakfoto>#hareketlerdokumu p:hover{background-color:#d9d9d9;}
+#kapakfoto>#hareketlerdokumu>p{margin:0px 0px 0px 0px;padding:5px 2px 5px 2px;float:left;font-size:13px;}
+#kapakfoto>#profilkadi{position:absolute;top:225px;left:240px;background-color:none;}
+#kapakfoto>#profilkadi>p{color: #fff;
+    text-rendering: optimizelegibility;
+    text-shadow: 0 0 3px rgba(0,0,0,.8);font-size:26px;font-weight:bold;}
+#resimlerbuton{width:100%;height:40px;background-color:#fff;}
+#profilresimler>#resimlerbuton>#profilbuton{height:100%;margin-top:0px;}
+#profilresimler>#resimlerbuton>#profilbuton>div#profilresmi{float:left;}
+#profilresimler>#resimlerbuton>div#profilbuton{float:left;border-right:1px solid #cccccc;padding:0px 15px 0px 15px;
+	cursor:pointer;background-color:#fff;color: #365899;font-weight:bold;font-size:14px;}
+#profilresimler>#resimlerbuton>div#profilbuton:hover{background-color:#f2f2f2; }
+#profilresimler>#resimlerbuton>#profilbuton>#profilresmi{width:160px;height:160px;margin-left:20px;
+	border:3px solid #fff;position:relative;top:-130px;background-color:transparent}
+#profilresimler>#resimlerbuton>#profilbuton>#profilresmi:hover div{visibility:visible;}
+#profilresimler>#resimlerbuton>#profilbuton>#profilresmi>img{padding:1px 1px;padding-right:0px;}
+#profilresimler>#resimlerbuton>#profilbuton>#profilresmi>div{top:105px;left:0px;position:absolute;width:100%;
+background-color:black;height:55px;visibility:hidden;opacity:0.75}
+#profilresimler>#resimlerbuton>#profilbuton>#profilresmi>div>p{float:left;position:absolute;top:0px;left:50px;
+color:#fff;font-size: 13px}
+#profilresimler>#resimlerbuton>#profilbuton>#profilresmi>div>img{float:left;position:absolute;top:15px;left:20px;}
+
+#profilcenter{width:830px;margin:0px 0px 0px 100px;height:auto;}
+#profilcenter>div{float:left;}
+#profilcenter>#profilbilgi{position:relative;width:300px;height:500px;margin-right:15px;}
+#profilbilgi>div{width:100%;background-color:#fff;height:auto;margin-bottom:10px;overflow:hidden;
+color:#1d2129;border-radius:4px;}
+#profilbilgi>div>img{margin-left:15px;margin-right:10px;float:left;top:20px;position:relative;}
+#profilbilgi>div>h4{color:#1d2129;float:left;top:0px;position:relative;font-weight:normal;font-size:16px;
+cursor:pointer;margin-right:5px;}
+#profilbilgi>div>h4#arkadassayi{color:#90949c;}
+#profilbilgi>div>h4:hover{text-decoration:underline;}
+#profilbilgi>div>div{width:100%;position:relative;top:0px;left:15px;overflow:hidden;height:auto;}
+#profilbilgi>div>div>div{float:left;}
+#profilbilgi>div>div>div>img{float:left;margin-right:5px;margin-bottom:10px;}
+#profilbilgi>div>div>div>p{float:left;position:relative;margin-top:1px;margin-right:3px;font-size:13px;}
+#profilbilgi>div>div>div>p#memleket{color:#365899;cursor: pointer;}
+#profilbilgi>div>div>div>p#memleket:hover{text-decoration: underline;}
+#profilbilgi>div>div>a>div{float:left;margin-right:8px;}
+#profilbilgi>div>div>a>div>div{position:absolute;margin-top:-30px;margin-left:5px;height:15px;font-size:12px;color:#fff;overflow:hidden;width:75px}
+#onecikanfoto{color:#365899;cursor: pointer;}
+#onecikanfoto:hover{text-decoration: underline;}
+#reklamalanilink a{margin-left:5px;}
+#reklamalanilink p{margin-left:5px;padding-top:5px;}
+
+#profilcenter>#profilpaylasim{position:relative;width:515px;height:auto;}
+}
+@media only screen and (min-width: 100px) and (max-width: 1100px) {
+body
+{
+	margin:0px;
+	padding:0px;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #e9ebee;
+	width:1349px;
+	position:relative;
+}
+
+header
+{
+	width:100%;
+	height:50px;
+	background-color: #4267b2;
+  border-bottom: 1px solid #29487d;
+  color: #fff;
+	position:fixed;
+	z-index:1;
+	overflow:hidden;
+}
+
+p{font-family: Helvetica, Arial, sans-serif;}
+#container{width:100%;}
+#right{width:300px;height:100%;float:right;top:50px;right:0px;position:fixed;visibility:hidden;overflow:hidden;}
+#left{float:left;width:1050px;height:auto;position:relative;top:50px;}
+#left>#profilresimler{width:75%;height:auto;margin:0px;position:relative;
+	border: 1px solid #d3d6db;border-radius: 0 0 3px 3px;}
+#left>#profilresimler>a{text-decoration:none;color:#4b4f56;}
+#kapakfoto{width:100%;height:300px;background-image:url(img/user.png);}
+#kapakfoto>img{width:100%;height:100%;}
+#kapakfoto>div{border-radius:3px;}
+#kapakfoto>#bilgiguncelle{position:absolute;top:220px;right:30px;width:132px;height:25px;float:right;
+font-weight:bold;background-color: #f6f7f9;}
+#kapakfoto>#bilgiguncelle:hover{background-color:#d9d9d9;}
+#kapakfoto>#bilgiguncelle>p{margin:4px 2px 0px 2px;font-size:13px;}
+#kapakfoto>#hareketlerdokumu{position:absolute;top:260px;right:30px;width:215px;height:25px;float:right;
+font-weight:bold;background-color: #f6f7f9;}
+#kapakfoto>#hareketlerdokumu p:hover{background-color:#d9d9d9;}
+#kapakfoto>#hareketlerdokumu>p{margin:0px 0px 0px 0px;padding:5px 2px 5px 2px;float:left;font-size:13px;}
+#kapakfoto>#profilkadi{position:absolute;top:225px;left:240px;background-color:none;}
+#kapakfoto>#profilkadi>p{color: #fff;
+    text-rendering: optimizelegibility;
+    text-shadow: 0 0 3px rgba(0,0,0,.8);font-size:26px;font-weight:bold;}
+#resimlerbuton{width:100%;height:40px;background-color:#fff;}
+#profilresimler>#resimlerbuton>#profilbuton{height:100%;margin-top:0px;}
+#profilresimler>#resimlerbuton>#profilbuton>div#profilresmi{float:left;}
+#profilresimler>#resimlerbuton>div#profilbuton{float:left;border-right:1px solid #cccccc;padding:0px 15px 0px 15px;
+	cursor:pointer;background-color:#fff;color: #365899;font-weight:bold;font-size:14px;}
+#profilresimler>#resimlerbuton>div#profilbuton:hover{background-color:#f2f2f2; }
+#profilresimler>#resimlerbuton>#profilbuton>#profilresmi{width:160px;height:160px;margin-left:20px;
+	border:3px solid #fff;position:relative;top:-130px;background-color:#000;}
+#profilresimler>#resimlerbuton>#profilbuton>#profilresmi:hover div{visibility:visible;}
+#profilresimler>#resimlerbuton>#profilbuton>#profilresmi>img{padding:1px 1px;padding-right:0px;}
+#profilresimler>#resimlerbuton>#profilbuton>#profilresmi>div{top:105px;left:0px;position:absolute;width:100%;
+background-color:black;height:55px;visibility:hidden;opacity:0.75}
+#profilresimler>#resimlerbuton>#profilbuton>#profilresmi>div>p{float:left;position:absolute;top:0px;left:50px;
+color:#fff;font-size: 13px}
+#profilresimler>#resimlerbuton>#profilbuton>#profilresmi>div>img{float:left;position:absolute;top:15px;left:20px;}
+
+#profilcenter{width:830px;margin:0px;height:auto;}
+#profilcenter>div{float:left;}
+#profilcenter>#profilbilgi{position:relative;width:300px;height:500px;margin-right:15px;}
+#profilbilgi>div{width:100%;background-color:#fff;height:auto;margin-bottom:10px;overflow:hidden;
+color:#1d2129;border-radius:4px;}
+#profilbilgi>div>img{margin-left:15px;margin-right:10px;float:left;top:20px;position:relative;}
+#profilbilgi>div>h4{color:#1d2129;float:left;top:0px;position:relative;font-weight:normal;font-size:16px;
+cursor:pointer;margin-right:5px;}
+#profilbilgi>div>h4#arkadassayi{color:#90949c;}
+#profilbilgi>div>h4:hover{text-decoration:underline;}
+#profilbilgi>div>div{width:100%;position:relative;top:0px;left:15px;overflow:hidden;height:auto;}
+#profilbilgi>div>div>div{float:left;}
+#profilbilgi>div>div>div>img{float:left;margin-right:5px;margin-bottom:10px;}
+#profilbilgi>div>div>div>p{float:left;position:relative;margin-top:1px;margin-right:3px;font-size:13px;}
+#profilbilgi>div>div>div>p#memleket{color:#365899;cursor: pointer;}
+#profilbilgi>div>div>div>p#memleket:hover{text-decoration: underline;}
+#profilbilgi>div>div>a>div{float:left;margin-right:8px;}
+#profilbilgi>div>div>a>div>div{position:absolute;margin-top:-30px;margin-left:5px;height:15px;font-size:12px;color:#fff;overflow:hidden;width:75px}
+#onecikanfoto{color:#365899;cursor: pointer;}
+#onecikanfoto:hover{text-decoration: underline;}
+#reklamalanilink a{margin-left:5px;}
+#reklamalanilink p{margin-left:5px;padding-top:5px;}
+
+#profilcenter>#profilpaylasim{position:relative;width:470px;height:auto;}
+#paylasimicerik>form{width:80%!important;}
+#paylasimicerik hr{width:100%!important;}
+#paylasimicerik>form>input{width:300px!important;height:50px;border:0px;margin-top:10px;padding-top:0px;padding-left:10px;margin-left:-5px;}
+}

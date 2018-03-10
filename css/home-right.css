@@ -1,0 +1,17 @@
+body{font-family: Helvetica, Arial, sans-serif;position:relative;}
+#anaright{float:right;width:300px;height:100%;left:0px;position:relative;overflow:hidden;}
+#sohbet{width:100%;height:100%;float:left;border-left:1px solid #cccccc;}
+#sohbet>#kisiliste{height:545px;width:100%;}
+#sohbet>#sohbetara{width:100%;}
+#sohbet>#sohbetara>form{width:100%;}
+#sohbet>#sohbetara>form>input{width:240px;padding-left:20px;}
+#sohbet>#sohbetara>form>img{position:absolute;left:5px;margin-top:5px;}
+#sohbet>h4{color:#333333;margin-left:15px;font-size:12px;margin-top:20px;}
+#kisiler{float:left;width:100%;height:30px;margin-bottom:10px;margin-top:0px;
+padding:3px 5px 3px 5px;}
+#kisiler:hover{background-color:gray;position:relative;}
+#kisiler>img{float:left;margin-left:10px;}
+#kisiler>p{float:left;margin-top:5px;margin-left:5px;color:#333333;font-size:13px;}
+#reklamalanilink{width:100%;height:90px;margin-bottom:7px;}
+#reklamalanilink>a{float:left;font-size:12px;color:gray;margin-right:13px;margin-bottom:5px;margin-top:10px;}
+#reklamalanilink>p{clear:left;font-size:14px;color:gray;margin-right:13px;margin-top:20px;}

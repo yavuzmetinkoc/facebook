@@ -1,0 +1,24 @@
+body{font-family: Helvetica, Arial, sans-serif;}
+#ana{position:relative;height:93%;overflow-x: hidden;overflow-y:auto;}
+#ana>a>div{padding:10px 10px 10px 15px;padding-left:20px;width:90%;height:20px;clear:left;}
+#profil>img{-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;}
+#leftresim{width:30px;height:30px;position:relative;border:1px solid #333;border-radius:20px;}
+#leftresim>img{margin:0 auto;margin-left:2.5px;margin-top:2px;}
+#ana>a>div:hover{background-color:#ffffff}
+#ana>a>div>p{padding-left:40px;margin-top:-23px;font-size:12px;}
+#ana>a:last-child{margin-bottom:20px;}
+#container>#left>#ana>a{text-decoration:none;}
+a{color:#1d2129;}
+#ana>#kesfet{width:100%;}
+#ana>#kesfet>a{text-decoration:none;}
+#ana>#kesfet>h4{padding-left:20px;width:90%;height:10px;margin-top:40px;margin-bottom:10px;color:#333333;}
+#ana>#kesfet>a>div{padding:5px 5px 10px 20px;width:90%;height:17px;margin-top:5px;}
+#ana>#kesfet>a>div:hover{background-color:#ffffff;}
+#ana>#kesfet>a>div>p{padding-left:40px;margin-top:-23px;font-size:13px;}
+
+#ana>#olustur{width:100%;margin-bottom:70px;}
+#ana>#olustur>a>div:hover{text-decoration:underline;}
+#ana>#olustur>h4{padding-left:20px;width:90%;height:10px;color:#333333;}
+#ana>#olustur>a>div{color:blue;float:left;margin-right:8px;font-size:13px;}
